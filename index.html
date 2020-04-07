@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Gem puzzle</title>
+</head>
+<body>
+    <div class="puzzle">
+    <h1 class="txt-1">Gem puzzle</h1>
+    <h1 class="txt-2">Try to win |¬‿¬| </h1>
+    </div>
+    <div id="time" class="game-time">
+        Time:
+        <span class="time-text"></span>
+    </div>
+    <div id="difficulty" class="difficulty">
+      <h2>Choose a difficulty:</h2>
+      <div class="points">
+        <div class="radio-but"> </br></br></br>
+            <label for="game-difficulty-one">  weak(3x3)</label>
+            <input type="radio" name="game-difficulty" id="game-difficulty-one" value='3'>
+        </div>
+        <div class="radio-but"></br></br>
+            <label for="game-difficulty-two">  normal</label>(4x4)
+            <input type="radio" name="game-difficulty" id="game-difficulty-two" value='4' checked>
+        </div>
+        <div class="radio-but"> </br>
+            <label for="game-difficulty-three">strong(5x5)</label>
+            <input type="radio" name="game-difficulty" id="game-difficulty-three" value='5'>
+        </div>
+        <div class="radio-but"> 
+            <label for="game-difficulty-three">crazy(8x8)</label>
+            <input type="radio" name="game-difficulty" id="game-difficulty-three" value='8'>
+        </div>
+      </div>
+    </div>
+    <div id="box"></div>
+    <button id="start" class="start-game">Start the game</div>
+    <button id="game" class="new-game">New battle</div>
+</body>
+</html>
